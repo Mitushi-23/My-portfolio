@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
 }
+
 .nav>li>a {
     position: relative;
     display: block;
@@ -482,6 +483,10 @@ hr {
         width: 100%;
     }
 }
-    
-        
+@media only screen and (max-width: 331px) 
+     {
+         body{
+             width: fit-content;
+         }
+     }   
 
