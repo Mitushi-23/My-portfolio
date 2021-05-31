@@ -415,9 +415,7 @@ hr {
     .firstsection{
         height: auto;
     }
-    .stuff{
-        overflow: scroll;
-    }
+   
     .grid{
         display: flex;
         flex-direction: column;
@@ -426,8 +424,9 @@ hr {
     }
     .stuff1{
         margin-bottom: 12px;
-        overflow: scroll;
+        /* overflow: scroll; */
         border-radius: 10px;
+        width: 60%;
     }
     .sports{
         margin-bottom: 127px;
@@ -463,8 +462,12 @@ hr {
         opacity: 0;
         height: 300px;
     }
-
-
+    .learning{
+        width: 60%;
+    }
+    .form-control{
+        width: 100%;
+    }
 }
     
         
