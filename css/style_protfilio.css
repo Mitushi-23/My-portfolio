@@ -344,6 +344,27 @@ hr {
     letter-spacing: 2px;
 }
 
+.container-fluid{
+    margin-left: 0%;
+}
+.navbar-header{
+    padding-left: 27px;
+}
+.burger{
+    display:none;
+    position: absolute;
+
+    right: 5%;
+    top: 15px;
+    
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 4px 4px;
+    
+}
 
 
 @media only screen and (max-width: 1142px){
@@ -386,6 +407,7 @@ hr {
     
     .burger{
         display: block;
+        
     }
     .firstsection{
         height: auto;
@@ -407,6 +429,16 @@ hr {
     .sports{
         margin-bottom: 127px;
     }
+
+    .container-fluid{
+        text-align: center;
+        margin: auto;
+    }
+    .navbar-header{
+        margin: auto;
+        text-align: center;
+    }
+
 }
     @media only screen and (max-width: 750px){
         .second{
