@@ -37,7 +37,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
+    position: sticky;
     z-index: 1000;
     top: 0%;
     cursor: pointer;
@@ -70,7 +70,7 @@
 .second{
     display: flex;
     flex-direction: row;
-    margin-top: 51px;
+    /* margin-top: 51px; */
 }
 .burger{
     display:none;
@@ -374,13 +374,16 @@ hr {
     }
     .navbar{
         height: auto;
+        /* display: block; */
+        /* position: relative; */
     }
     .second{
         flex-direction: column-reverse;
         max-width: 100%;
         height: auto;
         padding-top: 0;
-        margin-top: 51px;
+        margin-top: 0%;
+        /* margin-top: 51px; */
     }
     .text-big{
         text-align: center;
@@ -433,16 +436,36 @@ hr {
     .container-fluid{
         text-align: center;
         margin: auto;
+        height: 10px;
+        display: flex;
+        flex-direction: column;
     }
     .navbar-header{
         margin: auto;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: 0.3s  ease-out;
+        /* height: 470px; */
+    }
+    .h-nav-resp{
+        height: 300px;
+
+    }
+    .v-class-resp{
+        opacity: 0;
+        height: 300px;
     }
 
+
 }
-    @media only screen and (max-width: 750px){
-        .second{
-            margin-top: 307px;
-        }
+    
         
-}
+
