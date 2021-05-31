@@ -408,7 +408,11 @@ hr {
     .container{
         grid-auto-flow: row;
         margin-inline: auto;
-        justify-content: center;
+        
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
     #interests{
         text-align: center;
