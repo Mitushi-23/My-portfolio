@@ -179,7 +179,7 @@ ul{
     /* margin: 16%; */
     padding: 25px;
     text-align: center;
-    box-shadow: 6px 6px 6px;
+    /* box-shadow: 6px 6px 6px; */
 }
 .profile{
     margin-top: 80px;
@@ -338,6 +338,23 @@ hr {
     border-radius: 50%;
     box-shadow: 8px 8px 6px grey;
 }
+
+.learn :hover{
+    transform: scale3d(1.1,1.1,1.1);
+    /* transition-delay: 2s; */
+    transition-duration: 1s;
+    border-radius: 6px;
+    /* box-shadow: none; */
+}
+
+.grid :hover{
+   transform: scale3d(1.07,1.07,1.07);
+   /* transition-delay: 2s; */
+   transition-duration: 1s;
+   border-radius: 30%;
+
+}
+
 .cultural {
     padding: 10px 0px;
     font-size: 21px;
@@ -372,8 +389,15 @@ hr {
     width: 33px;
     background-color: white;
     height: 4px;
-    margin: 4px 4px;
-    
+    margin: 4px 4px;   
+}
+
+.contain :hover{
+    transform: rotateY(360deg);
+    transition-duration: 3s;
+}
+.interest :hover{
+    transform: none;
 }
 
 
