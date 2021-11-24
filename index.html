@@ -4,14 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+
+
+
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="css/style_protfilio.css">
-<link rel="icon" href="images/icon-img.jfif">
-
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
 
   <title>Mitushi Agrawal</title>
 
@@ -19,27 +28,42 @@
 </head>
 <body>
 
-  
-<nav class="navbar background navbar-inverse h-class-resp">
-  <div class="container-fluid  h-class-resp">
-    <div class="navbar-header  h-class-resp">
-      <a class="navbar-brand v-class-resp" href="#">Portfolio</a>
-    </div>
-    <ul class="nav navbar-nav v-class-resp">
-      <li><a class="active" href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#interests">Interests</a></li>
-      <li><a href="#achievements">Achievements</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </div>
+  <!-- //ml-auto -->
 
-  <div class="burger">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#interests">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#achievements">Achievements</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- <div class="burger">
     <div class="line"></div>
     <div class="line"></div>
     <div class="line"></div>
-</div>
-</nav>
+</div> -->
 
 <section class=" secsection" >
   <section class="background firstsection" id="home">
@@ -61,19 +85,24 @@
 </section>
 
 
-  
-    <div class="intro" id="about">
+<div class="about" id="about">
+    <div class="intro">
       <p class="text-big1">About Me</p>
       <p class="introduction">Hello guys,
         <br>
-        Myself Mitushi Agrawal, currently persuing a B.tech degree at IIIT Bhopal in ECE Branch.
+        Myself Mitushi Agrawal, currently persuing a B.tech degree at IIIT Bhopal in CSE Branch.
         <br>
         I am an innovator. My hobbies are reading books, dancing, listening music, painting and cooking.
       </p>
-      <div class="learn">
+    </div>
+    <a class="resume" href="Resume/Mitushi Agrawal _ Resume.pdf" download>Download Resume</a>
+  </div>
+  
+      <div class="learn" id="skills">
       <div class="learning">
         <div class="stuff">
-        <p class="list">Currently Learning</p>
+          <p class="list">Skills</p>
+          <!-- 
         <ul>
           <li>JAVA</li>
           <li>C</li>
@@ -81,17 +110,43 @@
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
-        </ul>
+        </ul> -->
+        <!-- <div class="progress" style="height: 1px;">
+          <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div> -->
+        <h3>Python</h3>
+        <div class="progress border border-dark" style="height: 20px;">
+          <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h3>React JS</h3>
+        <div class="progress border border-dark" style="height: 20px;">
+          <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h3>JS</h3>
+        <div class="progress border border-dark" style="height: 20px;">
+          <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h3>HTML CSS</h3>
+        <div class="progress border border-dark" style="height: 20px;">
+          <div class="progress-bar" role="progressbar" style="width: 93%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h3>JAVA</h3>
+        <div class="progress border border-dark" style="height: 20px;">
+          <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <h3>C, C++</h3>
+        <div class="progress border border-dark" style="height: 20px;">
+          <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
       </div>
-    </div>
+    </div> 
       </div>
-    </div>
     
-    <div class="tech-interests" id="interests">
+    <div class="tech1"id="interests">
+    <div class="tech-interests" >
     <div class="paras">
-      <p class="text-big1" >Technical Interests</p>
+      <p class=" tech text-big1" >Technical Interests</p>
     </div>
-    
       <div class="container">
         <div class="contain">
         <div class="interest block1">
@@ -115,12 +170,14 @@
       </div>
       </div>
     </div>
+  </div>
+
+
+
     <div class="achievements" id="achievements">
       <div class="paras">
         <p class="text-big1 achieve" >Achievements</p>
       </div>
-
-
       <div class="grid">
         <div class=" stuff1">
           <p class="list">Cultural Activities</p>
@@ -142,15 +199,15 @@
             <li class="cultural">I was in a kho-kho team, and also secured good position in school marathon.</li>
           </ul>
         </div>
-        
-      
       </div>
-
     </div>
+
+   
  
   <section class="contact-form" id="contact">
   <form class="form">
-    <h1>CONTACT FORM</h1>
+    <h1>CONTACT ME</h1>
+    <!--
     <div class="contact">
     <div class="form-group">
       <label for="exampleFormControlInput1">Name</label>
@@ -171,29 +228,40 @@
     </div>
     <button class="btn1 submit">Submit</button>
   </div>
-  <hr>
+  <hr> -->
+  <div class="contact">
   <div>
-    <span class="fas fa-envelope"></span>
+    <span class="fas fa-envelope"><img src="icons/mail.svg" alt="" width="35px" height="35px"></span>
     <h4 class="email">Email</h4>
     <br>
     <p class="mail" id="">mitushi2agrawal@gmail.com</p>  
   </div>
-  <div class="address">
-    <span class="fas fa-home"></span>
+  <div class>
+    <!-- <span class="material-icons">
+      home
+      </span> -->
+      <!-- <ion-icon name="home"></ion-icon> -->
+    <span class="fas fa-home"><img src="icons/home.svg" alt="" width="35px" height="35px"></span>
     <h4 class="address-text">Address</h4>
     <br>
     <p class="add">Agra,Uttar Pradesh 282006</p>  
   </div>
-  <hr>
-  
-  <a class="icon" href="https://www.instagram.com/" target="_blank"><img class="one" src="images/instaicon.png" alt="" width="40px"></a>
-  <a class="icon" href="https://www.linkedin.com/feed/" target="_blank"><img class="one" src="images/linkedin.jpg" alt="" width="35px"></a>
-  <a class="icon" href="https://twitter.com/home" target="_blank"><img class="one" src="images/twitter.jpg" alt="" width="40px"></a>
-  <a class="icon" href="https://github.com/Mitushi-23" target="_blank"><img class="one" src="images/github.jpg" alt="" width="30px"></a>
+</div>
 </form>
 </section>
 </section>
-
+<!-- JavaScript Bundle with Popper -->
+<div class="social">
+<a class="icon" href="https://www.instagram.com/mitushi_agrawal_/" target="_blank"><img class="one" src="logos/logo-instagram.svg" alt="" width="30px"></a>
+<a class="icon" href="https://www.linkedin.com/in/mitushi-agrawal-bb75b0210/" target="_blank"><img class="one" src="logos/logo-linkedin.svg" alt="" width="30px"></a>
+<a class="icon" href="https://mobile.twitter.com/mitushi_agrawal" target="_blank"><img class="one" src="logos/logo-twitter.svg" alt="" width="30px"></a>
+<a class="icon" href="https://github.com/Mitushi-23" target="_blank"><img class="one" src="logos/logo-github.svg" alt="" width="30px"></a>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="portfolio.js"></script>
+
+
+  <!-- <img src="Resume/Mitushi Agrawal _ Resume.pdf" alt="Download Resume">
+</img> -->
 </body>
 </html>
