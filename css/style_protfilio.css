@@ -12,6 +12,8 @@ body {
   );
   /* background-color: #555; */
   /* display: flex; */
+  margin: 0%;
+  padding: 0%;
 }
 
 /* .navbar{
@@ -24,6 +26,7 @@ body {
 */
 .navbar{
   margin-bottom: 40px !important;
+  /* width: 100%; */
 }
 .navbar-brand{
   /* margin-left: 28px; */
@@ -408,6 +411,7 @@ hr {
 .mail {
   font-size: 18px;
   text-align: center;
+  /* width: fit-content; */
 }
 .social{
   display: flex;
@@ -528,7 +532,11 @@ hr {
 .interest :hover {
   transform: none;
 }
-
+/* .mailid{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
 @media only screen and (max-width: 1142px) {
   * {
     margin: 0%;
@@ -655,8 +663,30 @@ hr {
     display: flex;
     flex-direction: column;
   }
+  /* .mail{
+    font-size: 12px;
+    text-align: center;
+  }
+  .add{
+    font-size: 12px;
+  } */
+  .contact{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
 }
 @media only screen and (max-width: 331px) {
+  /* .mail{
+    font-size: 8px;
+    text-align: center;
+  }
+  .add{
+    font-size: 10px;
+  } */
+  .contact{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
   /* body {
     width: fit-content;
   } */
