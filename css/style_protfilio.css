@@ -1,3 +1,4 @@
+
 * {
   margin: 0%;
   padding: 0%;
@@ -42,7 +43,9 @@ body {
   /* margin-bottom: 14px;
   margin-top: 14px; */
   font-size: 20px;
+ 
 }
+
 .nav-link:hover{
   color: white !important;
   border-bottom: 2px solid blue !important;
@@ -87,31 +90,57 @@ body {
   margin-bottom: 0px;
   
 } */
-.progress-bar{
-  position: relative;
+
+.progress-bar.is-visible{
+  /* position: relative;
   animation-name: example;
-  animation-duration: 10s;
-  animation-iteration-count: 2;
-  animation-direction: alternate;  
+  animation-duration: 5s;
+  animation-iteration-count: 1; */
+  /* animation-direction: alternate;   */
+
+animation-name: fadeInOut, moveLeft300px, bounce;
+animation-duration: 2.5s, 5s;
+animation-iteration-count: 2, 1;
 }
 
+.skill{
+  text-align: start;
+  color: black;
+  
+}
+/* .introduction.is-visible{
+  position: relative;
+  animation-name: shift;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;  
+}
+@keyframes shift {
+  0%   {color: none; left:-100px; top:0px;}
+  25%  {left:0px; top:0px;}
+} */
 .resume{
   text-decoration: none;
   color: white;
   border: 2px solid rgb(68, 68, 224);
   padding: 10px;
-  background-color: #286090;
+  background-color: #326ae4;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .resume:hover{
   background-color: #5271c4;
   color: white;
   text-decoration: none;
+  transform: scale3d(1.07, 1.07, 1.07);
+  transition-duration: 0.2s;
 }
 
 @keyframes example {
-  0%   {background-color:blue; left:100%; top:0px;}
-  25%  {background-color:rgb(235, 109, 130); left:0px; top:0px;}
+  0%   {background-color:blue; left:0%; top:0px;}
+  25%  {background-color:rgb(235, 109, 130); left:100px; top:0px;}
   /* 50%  {background-color:blue; left:200px; top:200px;}
   75%  {background-color:green; left:0px; top:200px;}
   100% {background-color:red; left:0px; top:0px;} */
@@ -148,9 +177,10 @@ body {
   top: 15px;
 }
 .img {
-  border-radius: 50%;
+  margin-top:7%;
+  /* border-radius: 50%; */
   margin-left: 380px;
-  border: 2px solid rgba(255, 255, 255, 0.739);
+  /* border: 2px solid rgba(255, 255, 255, 0.739); */
   padding: 5px;
 }
 /* .secsection {
@@ -170,10 +200,31 @@ body {
   margin-top: 14px;
   /* padding-top: 74px; */
 }
+.moreInfo{
+  font-size: 26px;
+  color:rgb(200, 126, 98);
+}
+.ab{
+  font-size: 50px;
+}
+.ab.is-visible{
+
+  position: relative;
+  animation-name: exa;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;  
+}
+@keyframes exa{
+  0%   { left:250px; top:0px;}
+  25%  { left:0px; top:0px;}
+}
 .introduction {
-  text-align: center;
-  font-size: 18px;
-  margin-top: 38px;
+  padding: 20px;
+  text-align:justify;
+  /* text-align: center; */
+  font-size: 24px;
+  /* margin-top: 38px; */
   /* width: 500px; */
 }
 .container {
@@ -192,7 +243,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 60vh;
   /* margin: 20px; */
   /* transform: scaleY(2);
   transform: scaleX(2); */
@@ -207,10 +258,19 @@ body {
   flex-direction: column;
   justify-content: space-between;
   margin: 1%;
-  border: 2px solid black;
-  width: 700px;
+  border-left: 2px solid rgba(143, 139, 139, 0.719);
+  border-bottom: 2px solid rgba(143, 139, 139, 0.719);
+  border-right: 2px solid rgba(191, 217, 233, 0.431);
+  border-top: 2px solid rgba(191, 217, 233, 0.431);
+  box-shadow: 10px 10px #5270c49f;
+  width: 900px;
   align-items: center;
   border-radius: 10px;
+}
+.text{
+  font-size: 70px;
+  color: deeppink;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .skills{
     transform: scale(1,1,1);
@@ -233,7 +293,7 @@ body {
 .tech1{
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  /* height: 80vh; */
 }
 .tech-interests{
   margin-top: 100px;
@@ -486,8 +546,8 @@ hr {
 .grid :hover {
   transform: scale3d(1.07, 1.07, 1.07);
   /* transition-delay: 2s; */
-  transition-duration: 1s;
-  border-radius: 30%;
+  transition-duration: 0.2s;
+  /* border-radius: 30%; */
 }
 
 .cultural {
@@ -563,6 +623,7 @@ hr {
   }
   .text-big {
     text-align: center;
+
   }
   .text-small {
     text-align: center;
@@ -597,6 +658,7 @@ hr {
     display: block;
   }
   .firstsection {
+    margin-top: 2%;
     height: auto;
   }
 
