@@ -604,12 +604,12 @@ hr {
   right: 5%;
   top: 15px;
 }
-.line {
+/* .line {
   width: 33px;
   background-color: white;
   height: 4px;
   margin: 4px 4px;
-}
+} */
 
 .contain :hover {
   transform: rotateY(360deg);
