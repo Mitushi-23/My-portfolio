@@ -265,6 +265,7 @@ animation-iteration-count: 2, 1;
   flex-direction: column;
   justify-content: space-between;
   margin: 1%;
+  background-color: #5eb5e754;
   /* border-left: 2px solid rgba(143, 139, 139, 0.719);
   border-bottom: 2px solid rgba(143, 139, 139, 0.719);
   border-right: 2px solid rgba(191, 217, 233, 0.431);
@@ -275,6 +276,7 @@ animation-iteration-count: 2, 1;
   align-items: center;
   border-radius: 10px;
 }
+
 .intro:hover{
   transform: perspective(300px) rotateX(
 0deg) rotateY(
@@ -506,6 +508,13 @@ hr {
   text-align: center;
   /* background-color: #333 ; */
 }
+.ic{
+  margin: 0px 20px;
+}
+/* .ic :hover{
+  background-color: black;
+  color: white;
+} */
 .fa,
 .fas {
   color: white;
@@ -608,6 +617,9 @@ hr {
 }
 .interest :hover {
   transform: none;
+}
+.tech-interests{
+  background-color: #5ec7e7;
 }
 /* .mailid{
   display: flex;
