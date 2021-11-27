@@ -28,16 +28,21 @@ let text=
 
     ["projects/textApp.png",
     "My TextApp",
-"https://mytextapp.netlify.app/"],
+"https://mytextapp.netlify.app/",
+"This project is made with React JS. It can convert any text to upperCase or lowerCase, can remove extra spaces, copy the text and also can count the number of characters and words.",
+"https://github.com/Mitushi-23/Text-App"],
 
     ["projects/scientificCalculator.png",
     "Scientific Calculator",
-"https://mitushi-23.github.io/Scientific-Calculator/"],
+"https://mitushi-23.github.io/Scientific-Calculator/",
+"This is a scientific calculator which can perform many operations on numbers. It is made using HTML,CSS and JS.",
+"https://github.com/Mitushi-23/Scientific-Calculator"],
 
     ["projects/NewsApp.png",
     "NewsApp",
 "",
-""]]
+"This project is made using React JS, I have fetched API Key to collect the latest news and had shown on this App.To preview this app you have to clone it.",
+"https://github.com/Mitushi-23/NewsApp"]]
 
 }`
 
