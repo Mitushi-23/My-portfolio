@@ -1,322 +1,228 @@
-
- 
-/* portfolio */
-
-
 :root {
-    --primary: #43b7ff;
-    --secondary: #e20a4c;
-    --dark: #212121;
-    --light: #F3F3F3;
-    /* #eae4e4
-    #43b7ff
-    #201eb3 */
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .Holder {
-    font-family: montserrat, sans-serif;
-    width: 100%;
-    min-height: 100vh;
-    /* background: linear-gradient(
-      33.66deg, #000000 11.6%, #0064C0 38.95%, rgba(20, 20, 20, 0.93) 70.37%);
-          background-blend-mode: darken;
-    */
-    /* background-color: #212121; */
-    background-color: black;
-  }
-    .cardholder{
-     display: flex;
-     flex-wrap: wrap;
-     align-items: center;
-     justify-content: space-around;
-     padding-bottom: 50px;
-     padding-top: 151px;
-     margin: 0px 30px;
-    }
-  
-  .Portfolio_heading{
-    padding-top: 137px;
-    color: #FFFFFF;
-    text-align: center;
-  }
-
-  .Portfolio_heading h1{
-    font-family:Comfortaa ;
-   font-size: 64px;
-   font-weight: bold;
-   line-height: 35px;
-   line-height: 49%;
-   vertical-align: middle;
-
-
-
-    /* Font family: Comfortaa;
-    Font style: Bold
-Font size: 64px
-Line height: 35px
-Line height: 49%
-Align: Left
-Vertical align: Center */
-  }
-  
-
-  .Portfolio_heading h3{
-font-family: Comfortaa;
-font-style: normal;
-font-size: 26px;
-font-weight: bold;
-line-height: 29px;
-line-height: 100%;
-vertical-align: middle;
-padding-top: 48px;
-/* 
-    Font family: Comfortaa
-Font style: Bold
-Font size: 26px
-Line height: 29px
-Line height: 100%
-Align: Left
-Vertical align: Center */
-  }
-  /* 
-  .line {
-    position: absolute;
-    width: 229px;
-    color: #ffa500; */
-    /* 
-    left: 842px;
-    top: 305px;
-    background: #3E94C7;
-    height: 3px;
-    right: 45px; */
-    /* text-align: center;
-}
-*/
-.line{
-    border-bottom: 2px solid blue; 
-    width: 200px; margin: auto;
-    margin-top: 30px;
+  --primary: #43b7ff;
+  --secondary: #e20a4c;
+  --dark: #212121;
+  --light: #f3f3f3;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
 
-  .card {
-    margin: 30px 30px;
-    width: 516px;
-    height: 600px;
-    perspective: 1000px;
-    background: none !important;
-  }
-  
-  .card__inner {
-    width: 100%;
-    height: 100%;
-  }
-  
-  /* .card__inner.is-flipped {
-    transform: rotateY(180deg);
-  } */
+.Holder {
+  font-family: montserrat, sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+}
+.cardholder {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  padding-top: 151px;
+  margin: 0px 30px;
+}
 
-  /* .card__inner.no-flip {
-    transform: none;
-  } */
-  
-  /* div{
-    border: #e20a4c solid 2px;
-  } */
-  
-  .card__face {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    overflow: hidden;
-    border-radius: 16px;
-    box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card__face--front {
- background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+.Portfolio_heading {
+  padding-top: 137px;
+  color: #ffffff;
+  text-align: center;
+}
 
-    /* background-color: C68484; */
-    /* background: linear-gradient(180deg, #C68484 0%, #3E94C7 100%); */
+.Portfolio_heading h1 {
+  font-family: Comfortaa;
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 35px;
+  line-height: 49%;
+  vertical-align: middle;
+}
 
-    /* background-image: linear-gradient(to bottom right, var(--primary), var(--secondary)); */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 600px;
-  }
-  
-  .card__face--front h2 {
-    color: black;
-    font-size: 32px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    /* position: absolute; */
-    text-align: center;
-    /* top: 50%; */
-    align-items: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: auto;
+.Portfolio_heading h3 {
+  font-family: Comfortaa;
+  font-style: normal;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 29px;
+  line-height: 100%;
+  vertical-align: middle;
+  padding-top: 48px;
+}
+
+.line {
+  border-bottom: 2px solid blue;
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.card {
+  margin: 30px 30px;
+  width: 516px;
+  height: 600px;
+  perspective: 1000px;
+  background: none !important;
+}
+
+.card__inner {
+  width: 100%;
+  height: 100%;
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card__face--front {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+
+.card__face--front h2 {
+  color: black;
+  font-size: 32px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
 }
 .title {
-    text-align: center;
-    font-size: auto;
+  text-align: center;
+  font-size: auto;
 }
-  
-
-
-
-/* .social_media a{
-  transform: none;
-} */
-
-.header1{
+.header1 {
   margin-right: 10px;
 }
 
-  
-  .title{
-      text-align: center;
-      font-size: auto;
-  }
-  .card__content {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .card__header {
-    position: relative;
-    display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* flex-direction: column; */
-    /* margin-left: 148px; */
-    margin-top: 10px;
-    justify-content: space-between;
+.title {
+  text-align: center;
+  font-size: auto;
 }
-  
-  
-  .card__header:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    /* background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%); */
-    z-index: -1;
-    border-radius: 0px 0px 50% 0px;
-    height: 185px;
-  }
-  
-  .pp {
-    display: block;
-    width: 128px;
-    height: 128px;
-    /* margin: 19px auto 30px; */
-    border-radius: 50%;
-    /* background-color: #FFF; */
-    /* border: 5px solid #FFF; */
-    object-fit: cover;
-  }
-  
-  .card__header h2 {
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
-    /* text-transform: uppercase; */
-    text-align: center;
-    /* top: 20%; */
-    /* margin-right: 48px; */
-    font-family: comfortaa;
-    margin-top: 5px;
+.card__content {
+  width: 100%;
+  height: 100%;
 }
 
-  
-  
-  .card__body {
-    padding: 19px 10px;
+.card__header {
+  position: relative;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.card__header:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border-radius: 0px 0px 50% 0px;
+  height: 185px;
+}
+
+.pp {
+  display: block;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card__header h2 {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  font-family: comfortaa;
+  margin-top: 5px;
+}
+
+.card__body {
+  padding: 19px 10px;
+}
+
+.card__body h3 {
+  color: var(--dark);
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.card__body p {
+  color: var(--dark);
+  font-size: 18px;
+  line-height: 1.4;
+}
+.project {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.game {
+  font-size: 22px;
+  text-align: justify;
+  padding: 0px 20px;
+}
+.repo_link {
+  color: grey;
+}
+.profile {
+  display: block;
+  width: 90%;
+  height: 280px;
+  margin: 0 auto 30px;
+  margin-top: 10px !important;
+  border-radius: 5%;
+  object-fit: cover;
+  position: absolute;
+  top: 0%;
+}
+.repo {
+  padding: 0px 20px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 820px) {
+  .line {
+    width: 100px;
   }
-  
-  .card__body h3 {
-    color: var(--dark);
-    font-size: 24px;
-    font-weight: 600;
-    margin-bottom: 10px;
+  .card {
+    width: 300px;
+    height: 600px;
   }
-  
-  .card__body p {
-    color: var(--dark);
-    font-size: 18px;
-    line-height: 1.4;
-  }
-  .project{
-      margin-top:auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-  }
-  .game{
-   font-size: 22px;
-   text-align: justify;
-   padding: 0px 20px;   
-  }
-  .repo_link{
-      color: grey;
+  .card__face--front {
+    height: 600px;
   }
   .profile {
-    display: block;
-    width: 90%;
-    height: 280px;
-    margin: 0 auto 30px;
-    margin-top: 10px !important;
-    border-radius: 5%;
-    /* background-color: #FFF; */
-    /* border: 5px solid #FFF; */
-    object-fit: cover;
-    /* top: 47%; */
-    position: absolute;
-    top: 0%;
-  }
-  .repo{
-      padding: 0px 20px;
-      font-weight: bold;
-  }
-  @media only screen and (max-width: 820px) {
-.line{
-    width: 100px;
-}  
-.card{
-    width: 300px;
-    height:600px;
-}
-.card__face--front {
-height: 600px;
-}
-.profile{
     height: 220px;
-}
-.card__face--front h2 {
+  }
+  .card__face--front h2 {
     margin-top: 10%;
-}
-.Portfolio_heading h1{
+  }
+  .Portfolio_heading h1 {
     font-size: 50px;
+  }
+  .game {
+    font-size: 20px;
+  }
 }
-}
-
-
- 
-
-
-
- 
