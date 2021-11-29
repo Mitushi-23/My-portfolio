@@ -12,7 +12,7 @@ let text = `{
 "https://mitushi-23.github.io/BreakOut/",
 "This is BreakOut Game which can be played on desktop using arrow keys and mouse. It is made using Canvas, and some HTML and CSS.",
 "https://github.com/Mitushi-23/BreakOut",
-"data-aos='fade-left'"],
+"data-aos='fade-up'"],
 
 ["projects/digitalClock.png",
 "Digital Clock",
@@ -41,14 +41,14 @@ let text = `{
 "https://mitushi-23.github.io/Scientific-Calculator/",
 "This is a scientific calculator which can perform many operations on numbers. It is made using HTML,CSS and JS.",
 "https://github.com/Mitushi-23/Scientific-Calculator",
-"data-aos='fade-up'"],
+"data-aos='zoom-out'"],
 
 ["projects/NewsApp.png",
 "NewsApp",
 "",
 "This project is made using React JS, I have fetched API Key to collect the latest news and had shown on this App.To preview this app you have to clone it.",
 "https://github.com/Mitushi-23/NewsApp",
-"data-aos='zoom-out'"]]
+"data-aos='fade-up'"]]
 
 }`
 
