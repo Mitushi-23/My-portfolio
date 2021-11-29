@@ -86,3 +86,8 @@ function load()
 {
   progress()
 }
+// $(".tech1").scroll(function(){
+// $(document).ready(function(){
+//   $(".interest").fadeIn(3000);
+// });
+// });

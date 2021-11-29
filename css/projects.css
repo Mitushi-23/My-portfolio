@@ -50,6 +50,8 @@
   line-height: 100%;
   vertical-align: middle;
   padding-top: 48px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .line {
@@ -223,6 +225,9 @@
     font-size: 50px;
   }
   .game {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  .on{
+    width: 20px;
   }
 }

@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -95,7 +99,8 @@
             </p>
             <p class="text heading text-small">A student of IIIT Bhopal</p>
           </div>
-          <div class="profile">
+          <div class="profile"data-aos="zoom-out">
+
             <img
               class="img"
               src="images/profile.jpg"
@@ -264,8 +269,8 @@
             <p class="tech text-big1">Technical Interests</p>
           </div>
           <div class="container">
-            <div class="contain">
-              <div class="interest block1">
+            <div class="contain"data-aos="fade-right">
+              <div class="interest block1" >
                 <img class="im"
                   src="https://tse1.mm.bing.net/th?id=OIP.PNW440vSDVq4wHeMPDzaGgHaEK&pid=Api&P=0&w=316&h=178"
                   alt=""
@@ -273,7 +278,7 @@
                 <p class="block">Competitive Coding</p>
               </div>
             </div>
-            <div class="contain">
+            <div class="contain" data-aos="fade-up">
               <div class="interest block2">
                 <img class="im"
                   src="https://tse2.mm.bing.net/th?id=OIP.qyHgF2j7tmHsEF3u3qL_KwHaDJ&pid=Api&P=0&w=359&h=153"
@@ -284,7 +289,7 @@
                 <p class="block">Web Developement</p>
               </div>
             </div>
-            <div class="contain">
+            <div class="contain"data-aos="fade-left">
               <div class="interest block3">
                 <img class="im"
                   src="https://tse3.mm.bing.net/th?id=OIP.qwxApLDSXjC3Y3zfoWE7_gHaDa&pid=Api&P=0&w=362&h=168"
@@ -385,10 +390,19 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
+  
+     
+      
     ></script>
-    <script src="portfolio.js"></script>
-    <script src="scroll.js"></script>
-
+    <script src="js/portfolio.js"></script>
+    <script src="js/scroll.js"></script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+<script>
+  console.log("ghh");
+  AOS.init({
+  duration: 1200,
+})
+</script>
     <!-- <img src="Resume/Mitushi Agrawal _ Resume.pdf" alt="Download Resume">
 </img> -->
   </body>
