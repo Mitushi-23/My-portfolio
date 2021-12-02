@@ -25,7 +25,7 @@ let text = `{
 ["projects/analogClock.png",
 "Analog Clock",
 "https://mitushi-23.github.io/Analog-Clock/",
-"This is a simple analog and digital clock which show~s the time of India. It is made using simple HTML,CSS and JS.",
+"This is a simple analog and digital clock which shows the time of India. It is made using simple HTML,CSS and JS.",
 "https://github.com/Mitushi-23/Analog-Clock",
 "data-aos='fade-down'"],
 
