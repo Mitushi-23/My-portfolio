@@ -1,7 +1,5 @@
-// Detect request animation frame
 var scroll =
   window.requestAnimationFrame ||
-  // IE Fallback
   function (callback) {
     window.setTimeout(callback, 1000 / 60)
   }
@@ -19,12 +17,9 @@ function loop() {
   scroll(loop)
 }
 
-// Call the loop for the first time
 loop()
 
-// Helper function from: http://stackoverflow.com/a/7557433/274826
 function isElementInViewport(el) {
-  // special bonus for those using jQuery
   if (typeof jQuery === 'function' && el instanceof jQuery) {
     el = el[0]
   }
@@ -82,12 +77,7 @@ window.load()
 {
   progress()
 }
-function load() 
-{
+function load() {
   progress()
 }
-// $(".tech1").scroll(function(){
-// $(document).ready(function(){
-//   $(".interest").fadeIn(3000);
-// });
-// });
+

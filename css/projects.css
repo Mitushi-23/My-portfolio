@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
 }
-body{
+body {
   width: 100%;
 }
 
@@ -230,7 +230,7 @@ body{
   .game {
     font-size: 17px;
   }
-  .on{
+  .on {
     width: 20px;
   }
 }

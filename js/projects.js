@@ -32,7 +32,7 @@ let text = `{
 ["projects/textApp.png",
 "My TextApp",
 "https://mytextapp.netlify.app/",
-"This project is made with React JS. It can convert any text to upperCase or lowerCase, can remove extra spaces, copy the text and also can count the number of characters and words.",
+"This project is made using ReactJs. It converts text to upperCase or lowerCase, removes extra spaces, copy the text and also count the number of characters and words.",
 "https://github.com/Mitushi-23/Text-App",
 "data-aos='slide-up'"],
 
