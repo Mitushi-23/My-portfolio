@@ -1,20 +1,20 @@
 //code for generating cards
 let text = `{
-"portfolio":[["projects/tic-tac-toe.png",
+"portfolio":[["assets/projects/tic-tac-toe.png",
 "Tic Tac Toe",
 "https://mitushi-23.github.io/Tic-Tac-Toe/",
 "This is a single player and a multiplayer TIC-TAC-TOE Game. It is made using simple HTML,CSS and JS.",
 "https://github.com/Mitushi-23/Tic-Tac-Toe",
 "data-aos='fade-right'"],
 
-["projects/breakout.png",
+["assets/projects/breakout.png",
 "BreakOut",
 "https://mitushi-23.github.io/BreakOut/",
 "This is BreakOut Game which can be played on desktop using arrow keys and mouse. It is made using Canvas, and some HTML and CSS.",
 "https://github.com/Mitushi-23/BreakOut",
 "data-aos='fade-up'"],
 
-["projects/digitalClock.png",
+["assets/projects/digitalClock.png",
 "Digital Clock",
 "https://digital-timeclock.netlify.app/",
 "This project is made using React JS, which shows the time for different countries. It is under construction, more features to be added.",
@@ -22,28 +22,28 @@ let text = `{
 "data-aos='flip-up'"],
 
     
-["projects/analogClock.png",
+["assets/projects/analogClock.png",
 "Analog Clock",
 "https://mitushi-23.github.io/Analog-Clock/",
 "This is a simple analog and digital clock which shows the time of India. It is made using simple HTML,CSS and JS.",
 "https://github.com/Mitushi-23/Analog-Clock",
 "data-aos='fade-down'"],
 
-["projects/textApp.png",
+["assets/projects/textApp.png",
 "My TextApp",
 "https://mytextapp.netlify.app/",
-"This project is made using ReactJs. It converts text to upperCase or lowerCase, removes extra spaces, copy the text and also count the number of characters and words.",
+"This project is made using ReactJs. It converts text to upperCase or lowerCase, removes extra spaces, copy the text, count the number of characters and words,capitalize the text and also downloads the generated new text.",
 "https://github.com/Mitushi-23/Text-App",
 "data-aos='slide-up'"],
 
-["projects/scientificCalculator.png",
+["assets/projects/scientificCalculator.png",
 "Scientific Calculator",
 "https://mitushi-23.github.io/Scientific-Calculator/",
 "This is a scientific calculator which can perform many operations on numbers. It is made using HTML,CSS and JS.",
 "https://github.com/Mitushi-23/Scientific-Calculator",
 "data-aos='zoom-out'"],
 
-["projects/NewsApp.png",
+["assets/projects/NewsApp.png",
 "NewsApp",
 "",
 "This project is made using React JS, I have fetched API Key to collect the latest news and had shown on this App.To preview this app you have to clone it.",
