@@ -27,6 +27,7 @@ body {
   padding-bottom: 50px;
   padding-top: 151px;
   margin: 0px 30px;
+  /* max-height: 1000vh; */
 }
 
 .Portfolio_heading {
@@ -65,9 +66,13 @@ body {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
   margin: 30px 30px;
   width: 516px;
-  height: 600px;
+  height: 670px;
+  /* height:fit-content; */
   perspective: 1000px;
   background: none !important;
 }
@@ -80,21 +85,18 @@ body {
 .card__face {
   position: absolute;
   width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  overflow: hidden;
+  height:auto;
+  /* height: fit-content; */
   border-radius: 16px;
   box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
-}
-
-.card__face--front {
-  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 600px;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
+
+
 
 .card__face--front h2 {
   color: black;
@@ -120,30 +122,7 @@ body {
   text-align: center;
   font-size: auto;
 }
-.card__content {
-  width: 100%;
-  height: 100%;
-}
 
-.card__header {
-  position: relative;
-  display: flex;
-  margin-top: 10px;
-  justify-content: space-between;
-}
-
-.card__header:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1;
-  border-radius: 0px 0px 50% 0px;
-  height: 185px;
-}
 
 .pp {
   display: block;
@@ -153,36 +132,14 @@ body {
   object-fit: cover;
 }
 
-.card__header h2 {
-  color: black;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  font-family: comfortaa;
-  margin-top: 5px;
-}
 
-.card__body {
-  padding: 19px 10px;
-}
-
-.card__body h3 {
-  color: var(--dark);
-  font-size: 24px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.card__body p {
-  color: var(--dark);
-  font-size: 18px;
-  line-height: 1.4;
-}
 .project {
   margin-top: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  height: auto;
 }
 .game {
   font-size: 21px;
@@ -200,8 +157,8 @@ body {
   margin-top: 10px !important;
   border-radius: 5%;
   object-fit: cover;
-  position: absolute;
-  top: 0%;
+  /* position: absolute; */
+  /* top: 0%; */
 }
 .repo {
   padding: 0px 20px;
@@ -213,16 +170,14 @@ body {
   }
   .card {
     width: 300px;
-    height: 600px;
-  }
-  .card__face--front {
-    height: 600px;
+    min-height:700px;
   }
   .profile {
     height: 220px;
   }
   .card__face--front h2 {
     margin-top: 10%;
+    /* font-size: 25px; */
   }
   .Portfolio_heading h1 {
     font-size: 50px;

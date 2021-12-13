@@ -1,18 +1,25 @@
 //code for generating cards
 let text = `{
-"portfolio":[["assets/projects/tic-tac-toe.png",
+"portfolio":[["assets/projects/iNotebook.png",
+"iNotebook",
+"https://inotebook23.herokuapp.com",
+"iNotebook is a MERN Stack project which allows the user to signup or login, to store their notes safely.",
+"https://github.com/Mitushi-23/iNotebook",
+"data-aos='slide-right'"],
+  
+  ["assets/projects/tic-tac-toe.png",
 "Tic Tac Toe",
 "https://mitushi-23.github.io/Tic-Tac-Toe/",
 "This is a single player and a multiplayer TIC-TAC-TOE Game. It is made using simple HTML,CSS and JS.",
 "https://github.com/Mitushi-23/Tic-Tac-Toe",
-"data-aos='fade-right'"],
+"data-aos='fade-up'"],
 
 ["assets/projects/breakout.png",
 "BreakOut",
 "https://mitushi-23.github.io/BreakOut/",
 "This is BreakOut Game which can be played on desktop using arrow keys and mouse. It is made using Canvas, and some HTML and CSS.",
 "https://github.com/Mitushi-23/BreakOut",
-"data-aos='fade-up'"],
+"data-aos='fade-left'"],
 
 ["assets/projects/digitalClock.png",
 "Digital Clock",
@@ -48,9 +55,16 @@ let text = `{
 "",
 "This project is made using React JS, I have fetched API Key to collect the latest news and had shown on this App.To preview this app you have to clone it.",
 "https://github.com/Mitushi-23/NewsApp",
-"data-aos='fade-up'"]]
+"data-aos='fade-up'"],
 
-}`
+["assets/projects/msteams_automator.png",
+"Microsoft Teams Attendance Automator",
+"",
+"It manifests the meeting organizers to easily sort the absentees and presentees according to their scholar number. It also generates attendance of each student in percentage and highlights it if it is less than the threshold value.To view this visit the github repo given below.",
+"https://github.com/Python-ProT/msteams-attendance",
+"data-aos='flip-left'"]
+
+]}`
 
 const data = JSON.parse(text)
 
@@ -61,8 +75,8 @@ for (var i = 0; i < data['portfolio'].length; i++) {
     <div class="card__inner">
         <div class="card__face card__face--front">
         
-        <img class="profile" src="${data['portfolio'][i][0]}" alt="" >
         <div class="project">
+        <img class="profile" src="${data['portfolio'][i][0]}" alt="" >
         <a href="${data['portfolio'][i][2]}" target="_blank"><h2 class="title">${data['portfolio'][i][1]}</h2></a>
         <p class="game">${data['portfolio'][i][3]}</p>
         <h3 class="repo">Github Repo-</h3>
