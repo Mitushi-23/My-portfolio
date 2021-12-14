@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+.ani{
+    text-align: start;
+	color: #100f10;
+	/* font-size: 14px; */
+    font-weight: bold;
+	position: relative;
+	text-transform: uppercase;
+	/* -webkit-text-stroke: 0.3vw #f7f7fe; */
+}
+
+.ani::before {
+	top: 0;
+	left: 0;
+	width: 0px;
+	height: 100%;
+	/* font-size: 14vw; */
+	color: #37b9f1;
+	overflow: hidden;
+	position: absolute;
+	content: attr(data-text);
+	/* border-right: 2px solid #37b9f1; */
+	-webkit-text-stroke: 0vw #f7f7fe;
+	animation: animate 6s linear infinite;
+}
+
+.animate-charcter{
+    visibility: hidden;
+
+}
+@keyframes animate {
+	0%,
+	10%,
+	100% {
+		width: 0%;
+	}
+
+	70%,
+	90% {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 820px) {
+    .ani{
+        text-align: center;
+        color: #37b9f1;
+        display: none;
+    }
+    /* .ani::before{
+    } */
+    /* Result Skip Results Iframe */
+.animate-charcter
+{
+    visibility: visible;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #df4b7d 67%,
+    #00c3ff 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+  display: inline-block;
+      font-size: 25px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+}
+    
