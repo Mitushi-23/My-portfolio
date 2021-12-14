@@ -1,0 +1,181 @@
+:root {
+  --pink: #ff1493;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  margin: 0%;
+  padding: 0%;
+}
+
+.navbar {
+  margin-bottom: 40px !important;
+  /* background: none !important; */
+  /* background-color: none; */
+  background: #5ac0e9 !important;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  /* padding: 0% !important; */
+  /* width: 100%; */
+}
+.navbar-brand {
+  /* margin-left: 28px; */
+  color: black !important;
+  font-size: 32px !important;
+}
+.nav-link {
+  color: black !important;
+  position: relative;
+  display: block;
+  /* margin-left: 28px; */
+  /* color: gray; */
+  text-decoration: none !important;
+  margin-right: 28px;
+  /* margin-bottom: 0%; */
+  /* margin-bottom: 14px;
+  margin-top: 14px; */
+  font-size: 20px;
+}
+.hover-line::after {
+  text-align: center !important;
+  content: " ";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: var(--pink);
+  /* transition: width 0.3s; */
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+
+  position: absolute;
+  left: 50%;
+  /* right: 50%; */
+  bottom: 0%;
+}
+.hover-line:hover::after {
+  width: 100%;
+  transition: width 0.3s;
+  left: 0%;
+}
+.nav-link:hover {
+  color: var(--pink) !important;
+  transition: 500ms;
+}
+
+.icon {
+  vertical-align: middle;
+  margin: 15px 10px;
+  margin-left: 0%;
+  /* border-bottom: 2px solid blue; */
+}
+.icon :hover {
+  border-bottom: 3px solid rgb(235, 109, 162);
+}
+
+
+.form {
+  text-align: center;
+  margin: 0%;
+  /* background-color: #333; */
+  color: white;
+  padding: 42px 0px;
+}
+
+
+.contact {
+  margin-top: 50px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.email {
+  margin: 0%;
+  color: rgb(51, 48, 48);
+}
+.fas {
+  color: blanchedalmond;
+  border-bottom: 2px solid #286090;
+  padding: 9px;
+  /* box-shadow: #286090; */
+  border-radius: 50%;
+  font-size: 20px;
+  /* margin-bottom: 10px; */
+}
+.mail {
+  font-size: 18px;
+  text-align: center;
+  /* width: fit-content; */
+}
+.social {
+  display: flex;
+  /* display: block; */
+  flex-direction: column;
+  position: absolute;
+  top: 40%;
+  right: 0%;
+  position: fixed;
+  text-align: center;
+  /* background-color: #333 ; */
+}
+.ic {
+  margin: 0px 20px;
+}
+.fa,
+.fas {
+  color: white;
+}
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+.add {
+  font-size: 18px;
+  text-align: center;
+}
+.address-text {
+  /* padding: 2%; */
+  margin: 0%;
+  color: rgb(51, 48, 48);
+}
+
+
+@media only screen and (max-width: 1142px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+  }
+  .nav-link:hover {
+    border-bottom: none !important;
+  }
+  .hover-line:hover::after {
+    display: none;
+  }
+}
+@media only screen and (max-width: 820px) {
+  /* body {
+    width: fit-content;
+  } */
+  
+  
+  .contact {
+      display: flex;
+      flex-direction: column;
+      margin-left: 0%;
+      margin-right: 0%;
+  }
+  .social {
+    display: none;
+  }
+}
+@media only screen and (max-width: 331px) {
+ 
+  .contact {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  
+}
