@@ -71,20 +71,13 @@ const data = JSON.parse(text)
 const cards = document.querySelector('.cardholder')
 for (var i = 0; i < data['portfolio'].length; i++) {
   let code = `
-    <div class="card" ${data['portfolio'][i][5]}>
-    <div class="card__inner">
-        <div class="card__face card__face--front">
-        
-        <div class="project">
-        <img class="profile" src="${data['portfolio'][i][0]}" alt="" >
-        <a href="${data['portfolio'][i][2]}" target="_blank"><h2 class="title">${data['portfolio'][i][1]}</h2></a>
-        <p class="game">${data['portfolio'][i][3]}</p>
-        <h3 class="repo">Github Repo-</h3>
-        <a href="${data['portfolio'][i][4]}" target="_blank"><p class="game repo_link">${data['portfolio'][i][4]}</p></a>
-        </div>
-        </div>
-       
+  <div class="pro_container"${data['portfolio'][i][5]}>
+<div class="project" style="background-image: url(${data['portfolio'][i][0]});">
 </div>
+  <h2 class="middle title" style="color:blue" >${data['portfolio'][i][1]}</h2>
+  <a href="${data['portfolio'][i][2]}"target="_blank"><i class="fas fa-link fa-lg projectlink middle"></i></a>
+  <a href="${data['portfolio'][i][4]}"target="_blank"><i class="fab fa-github fa-lg githubLink middle"></i></a>
+  </div>
       `
   cards.innerHTML += code
 }
@@ -105,3 +98,7 @@ AOS.init({
 //     social[i].classList.toggle('no-flip');
 //   });
 // }
+
+/*
+
+*/

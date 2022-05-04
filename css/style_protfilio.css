@@ -96,8 +96,9 @@ body {
   margin: 0%;
   color: rgb(51, 48, 48);
 }
-.fas {
-  color: blanchedalmond;
+.fass {
+  /* color: blanchedalmond; */
+  color:black;
   border-bottom: 2px solid #286090;
   padding: 9px;
   /* box-shadow: #286090; */
@@ -105,6 +106,11 @@ body {
   font-size: 20px;
   /* margin-bottom: 10px; */
 }
+
+.fass:hover{
+  background-color: black;
+}
+
 .mail {
   font-size: 18px;
   text-align: center;
@@ -125,7 +131,7 @@ body {
   margin: 0px 20px;
 }
 .fa,
-.fas {
+.fass {
   color: white;
 }
 .contact {

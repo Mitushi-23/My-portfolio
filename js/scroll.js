@@ -72,6 +72,12 @@ function progress() {
     },
     1000,
   )
+  $('.p7').animate(
+    {
+      width: '30%',
+    },
+    1000,
+  )
 }
 window.load()
 {
