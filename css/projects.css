@@ -153,7 +153,11 @@ body {
   margin: auto;
   margin-top: 30px;
 }
-
+.contact-form{
+  /* background-color:rgb(204, 192, 192); */
+/* background: linear-gradient(90deg, #00829e 0%, #1631ff 100%); */
+  background: linear-gradient(90deg, #11aed1 0%, #1f668d 100%);
+}
 @media only screen and (max-width: 820px) {
   .line {
     width: 100px;
